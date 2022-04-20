@@ -1,4 +1,9 @@
 spring:
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: none
+    generate-ddl: true
+  datasource:
+    url: jdbc:mysql://rm-2zedatbdu60w6m1e20o.mysql.rds.aliyuncs.com:3306/springboot?characterEncoding=utf8
+    password: Ngl5301658
+    username: ninggelin
