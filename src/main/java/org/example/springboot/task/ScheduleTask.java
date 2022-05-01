@@ -4,7 +4,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
-import org.springframework.stereotype.Component;
 
 import java.util.Date;
 
@@ -15,7 +14,7 @@ import java.util.Date;
  * @author : ninggelin
  * @date : 2022-04-20 22:09:06
  **/
-@Component
+//@Component
 @EnableScheduling
 @Slf4j
 @Async
