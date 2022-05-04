@@ -4,17 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-dependencies</artifactId>
-                <version>2.1.6.RELEASE</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+    <parent>
+        <artifactId>spring-boot-dependencies</artifactId>
+        <groupId>org.springframework.boot</groupId>
+        <version>2.1.6.RELEASE</version>
+    </parent>
 
     <!-- 项目信息 -->
     <groupId>org.example</groupId>
